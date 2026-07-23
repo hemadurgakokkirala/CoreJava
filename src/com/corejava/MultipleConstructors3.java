@@ -22,14 +22,14 @@ public class MultipleConstructors3 {
 
 class circle {
 	
-	int area;
+	double area;
 	
 	circle(){
 		System.out.println("no argumnets circle constructor");
 	}
 	
-	circle(int radius){
-		area = radius * radius;
+	circle(double radius){
+		area = Math.PI * radius * radius;
 		System.out.println("Area of Circle : "+area);
 	}
 }
