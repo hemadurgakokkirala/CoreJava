@@ -7,6 +7,7 @@ public class MultipleConstructors3 {
 	public static void main(String[] args) {
 		
 		circle c1 = new circle();
+		System.out.println(c1);
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Radius : ");
@@ -14,6 +15,8 @@ public class MultipleConstructors3 {
 		
 		
 		circle c2 = new circle(radius);
+		System.out.println(c2);
+		
 		sc.close();
 
 	}
