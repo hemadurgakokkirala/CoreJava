@@ -11,6 +11,7 @@ public class TestDemo123 {
 		// TODO Auto-generated method stub
 		TestDemo123 td = new TestDemo123();
 		Student123 st = new Student123();
+		System.out.println(st);
 		System.out.println("Object Created and Constructor Called");
 		
 		Car c = new Car();
@@ -26,6 +27,8 @@ public class TestDemo123 {
 		td.salary = sc.nextDouble();
 		emp e = new emp(td.name, td.age, td.salary);
 		e.display();
+		
+		sc.close();
 
 	}
 }
